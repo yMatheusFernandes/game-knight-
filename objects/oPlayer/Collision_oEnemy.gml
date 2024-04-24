@@ -1,3 +1,4 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
-game_restart();
+instance_destroy(other)
+global.life--
