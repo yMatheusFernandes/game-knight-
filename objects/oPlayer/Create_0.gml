@@ -1,5 +1,9 @@
-/// @description Inserir descrição aqui
-// Você pode escrever seu código neste editor
+
 spd = 3;
-cdValue = 10
-cd = 0
+
+global.life = 4
+
+my_weapon = instance_create_layer(x,y, "Weapons",obj_weapon)
+
+my_weapon.weapon_id=self
+
